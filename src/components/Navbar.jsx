@@ -13,7 +13,18 @@ const Navbar = () => {
           <Link as={RouterLink} to="/" px={2}>
             Home
           </Link>
-          {/* Add more links as needed */}
+          <Link as={RouterLink} to="/" px={2}>
+            Home
+          </Link>
+          <Link as={RouterLink} to="/about" px={2}>
+            About
+          </Link>
+          <Link as={RouterLink} to="/services" px={2}>
+            Services
+          </Link>
+          <Link as={RouterLink} to="/contact" px={2}>
+            Contact
+          </Link>
         </Flex>
       </Flex>
     </Box>
